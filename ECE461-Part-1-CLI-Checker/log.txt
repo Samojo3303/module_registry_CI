@@ -1,0 +1,10 @@
+[INFO] 2024-10-26T18:21:29.552Z - Starting Process
+[INFO] 2024-10-26T18:21:29.558Z - URL validation successful
+[INFO] 2024-10-26T18:21:29.558Z - Starting Analysis
+[INFO] 2024-10-26T18:21:29.559Z - Link is a GitHub URL
+[INFO] 2024-10-26T18:21:29.559Z - Fetching repository data...
+[INFO] 2024-10-26T18:21:33.115Z - Parameters Found
+[INFO] 2024-10-26T18:21:33.116Z - Calculating metrics
+[INFO] 2024-10-26T18:21:33.117Z - PACKAGE2
+[INFO] 2024-10-26T18:21:33.118Z - DEPENDS lodash ^4.17.21,lodash ,q ^1.5.1,q ,@types/mocha ^7.0.2,@types/mocha ,@types/node ^13.5.0,@types/node ,@types/expect.js ^0.3.29,@types/expect.js ,date-fns ^2.16.1,date-fns ,dotenv 4.x,dotenv ,dtslint ^0.9.1,dtslint ,eslint ^6.8.0,eslint ,eslint-config-airbnb-base ^14.2.1,eslint-config-airbnb-base ,eslint-plugin-import ^2.20.2,eslint-plugin-import ,expect.js 0.3.x,expect.js ,glob ^7.1.6,glob ,jsdoc 3.5.5,jsdoc ,jsdom ^9.12.0,jsdom ,jsdom-global 2.1.1,jsdom-global ,mocha ^6.2.3,mocha ,mock-fs ^4.12.0,mock-fs ,nyc ^13.3.0,nyc ,rimraf ^3.0.0,rimraf ,sinon ^6.1.4,sinon ,typescript ^3.7.5,typescript ,webpack-cli ^3.2.1,webpack-cli 
+[INFO] 2024-10-26T18:21:33.119Z - All analyses complete

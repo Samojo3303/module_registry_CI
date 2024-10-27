@@ -16,9 +16,9 @@ def run_install() -> int:
     test_suite_rc: bool
     url_file_rc: bool
 
-    install = CmdWrapper("./run install")
-    test_suite = CmdWrapper("./run test")
-    url_file = CmdWrapper(f'./run "{ONE_URL}"')
+    install = CmdWrapper("run install")
+    test_suite = CmdWrapper("run test")
+    url_file = CmdWrapper(f'run "{ONE_URL}"')
 
     install_rc, output = install.run()
     test_suite_rc, output = test_suite.run()

@@ -45,6 +45,12 @@ jobs:
       - name: Make run script executable
         run: chmod +x run
 
+      - name: Show current directory
+        run: pwd
+
+      - name: List files
+        run: ls -la
+
       - name: Run Python script
         run: python3 ECE461-Part-1-CLI-Checker/checker.py
 

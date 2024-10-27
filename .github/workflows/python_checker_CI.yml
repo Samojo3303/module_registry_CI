@@ -43,4 +43,4 @@ jobs:
           python -m pip install --upgrade pip
 
       - name: Run Python script
-        run: python3 checker.py
+        run: python3 /home/runner/work/module_registry/ECE461-Part-1-CLI-Checker/checker.py

@@ -10,6 +10,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      LOG_FILE: /home/runner/work/module_registry/log.txt
+      REPO_PATH: /home/runner/work/module_registry
+
     strategy:
       matrix:
         node-version: [18.17.x]
@@ -42,4 +47,4 @@ jobs:
         run: node your-node-script.js
 
       - name: Run Python script
-        run: python your-python-script.py
+        run: python3 checker.py
